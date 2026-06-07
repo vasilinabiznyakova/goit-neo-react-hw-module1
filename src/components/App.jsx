@@ -17,7 +17,9 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <FriendList friends={friends} />
+      <div className="friendListWrapper">
+        <FriendList friends={friends} />
+      </div>
       <TransactionHistory items={transactions} />
     </>
   );

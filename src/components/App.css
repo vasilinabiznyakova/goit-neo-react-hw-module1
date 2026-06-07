@@ -17,6 +17,10 @@
   }
 }
 
+.friendListWrapper {
+  margin-bottom: 40px;
+}
+
 .hero {
   position: relative;
 
